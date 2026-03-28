@@ -2,7 +2,6 @@ import socket
 import threading
 import os
 
-i=0
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
