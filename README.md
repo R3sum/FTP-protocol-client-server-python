@@ -25,6 +25,6 @@ The client connects to the server, requests a file by name, and downloads it loc
 
 Run the server first, then connect with the client.
 ```bash
-python FTP-server.py
-python FTP-client.py
+python3 FTP-server.py
+python3 FTP-client.py
 ```
